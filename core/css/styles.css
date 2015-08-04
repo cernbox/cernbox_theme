@@ -32,3 +32,7 @@
 	filter: alpha(opacity=60);
 	opacity: .6;
 }
+#body-login #remember_login:hover+label,
+#body-login #remember_login:focus+label  {
+        color: blue !important;
+}
