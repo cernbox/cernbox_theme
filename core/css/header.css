@@ -14,7 +14,7 @@
 #header .logo {
 	background-image: url(../img/logo-big-original300200.png);
 	background-repeat: no-repeat;
-	width: 400px;
+	/*width: 400px; */
 	height: 200px;
 	margin: 0 auto;
 	//margin-left: 70px;
