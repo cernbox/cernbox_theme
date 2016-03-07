@@ -21,3 +21,13 @@
 	vertical-align:middle;
 	margin-right:2px;
 }
+
+.eosinfo {
+ 	padding:3px;
+ 	border-radius: 5px;
+ 	background-color: #CEF6F5;
+ 	font-family: 'Open Sans';
+ 	font-style: normal;
+ 	font-weight: 500;
+ 	src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(../fonts/OpenSans-Semibold.woff) format('woff');
+ } 
