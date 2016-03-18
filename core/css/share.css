@@ -22,12 +22,25 @@
 	margin-right:2px;
 }
 
-.eosinfo {
- 	padding:3px;
- 	border-radius: 5px;
- 	background-color: #CEF6F5;
+.eospathView, .projectnameView {
+	border-style:groove;
+	border-width:2px;
+	margin-bottom:10px;
+}
+
+.eospathView p, .projectnameView p {
+ 	margin: 0;
+ 	padding: 0;
  	font-family: 'Open Sans';
  	font-style: normal;
- 	font-weight: 500;
+ 	font-weight: 600;
  	src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(../fonts/OpenSans-Semibold.woff) format('woff');
- } 
+ }
+ 
+ .projectnameView ul {
+ 	overflow: hidden;
+  }
+ 
+ .projectnameView li {
+  	padding-left:2em;
+ }
