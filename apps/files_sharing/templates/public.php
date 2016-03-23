@@ -110,8 +110,8 @@ $thumbSize = 1024;
 					</a>
 				</div>
 				<div class="directLink">
-					<label for="directLink"><?php p($l->t('Direct link')) ?></label>
-					<input id="directLink" type="text" readonly value="<?php p($_['downloadURL']); ?>">
+					<!-- <label for="directLink"> --><?php /*p($l->t('Direct link'))*/ ?><!-- </label> -->
+					<!-- <input id="directLink" type="text" readonly value=" --><?php /*p($_['downloadURL']);*/ ?><!-- "> -->
 				</div>
 			<?php endif; ?>
 		</div>

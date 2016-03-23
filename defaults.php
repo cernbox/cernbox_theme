@@ -166,8 +166,7 @@ class OC_Theme
 	 */
 	public function getShortFooter() 
 	{
-		$footer = '<a href="' . $this->getBaseUrl () . '" target="_blank">' 
-				. $this->getEntity () . '</a>' . $this->getSlogan();
+		$footer = '<a href="' . $this->getDocBaseUrl () . '" target="_blank">' . $this->getSlogan() . '</a>';
 		
 		return $footer;
 	}
