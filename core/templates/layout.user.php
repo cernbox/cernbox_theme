@@ -69,6 +69,16 @@
 
 			<div id="logo-claim" style="display:none;"><?php p($theme->getLogoClaim()); ?></div>
 			<div id="settings" class="svg">
+				<div id="searchBoxWrapper">
+					<form class="searchbox" action="#" method="post" role="search">
+					<label for="searchbox" class="hidden-visually">
+						<?php p($l->t('Search'));?>
+					</label>
+					<input id="searchbox" class="svg" type="search" name="query"
+						value=""
+						autocomplete="off" tabindex="5">
+					</form>
+				</div>
 				<div id="expand" tabindex="6" role="link" class="menutoggle">
 					<?php if ($_['enableAvatars']): ?>
 					<div class="avatardiv<?php if ($_['userAvatarSet']) { print_unescaped(' avatardiv-shown'); } else { print_unescaped('" style="display: none'); } ?>">
@@ -103,15 +113,6 @@
 				</ul>
 				</div>
 			</div>
-
-			<form class="searchbox" action="#" method="post" role="search">
-				<label for="searchbox" class="hidden-visually">
-					<?php p($l->t('Search'));?>
-				</label>
-				<input id="searchbox" class="svg" type="search" name="query"
-					value=""
-					autocomplete="off" tabindex="5">
-			</form>
 		</div></header>
 
 		<nav role="navigation"><div id="navigation">
