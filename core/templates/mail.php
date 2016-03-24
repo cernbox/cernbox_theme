@@ -8,15 +8,15 @@
 					<a href="<?php print_unescaped($_['link'])?>"></a><img src="<?php p(OC_Helper::makeURLAbsolute(image_path('', 'logo-mail.gif'))); ?>" alt="<?php p($theme->getName()); ?>"/></a>
 				</td>
 			</tr>
-			<tr>
+			<!-- <tr>
 				<td colspan="2">&nbsp;</td>
 			</tr>
 			<tr>
 				<td width="20px">&nbsp;</td>
 				<td style="font-weight:normal; font-style:italic; font-size:0.8em; line-height:1.2em; font-family:verdana,'arial',sans;">
-				version francaise dessous
+				version française ci-dessous
 				</td>
-			</tr>
+			</tr> -->
 			<tr>
 				<td colspan="2">&nbsp;</td>
 			</tr>
@@ -57,7 +57,7 @@
 				<td width="20px">&nbsp;</td>
 				<td style="font-weight:normal; font-style:italic; font-size:0.8em; line-height:1.2em; font-family:verdana,'arial',sans;">
 					<?php 
-					$msg = '%s a partage le liens a &raquo%s&laquo avec vous.';
+					$msg = '%s a partagé le <a href="%s" target="_blank" style="color: #58ACFA;">liens</a> a &raquo%s&laquo avec vous.';
 					print_unescaped(sprintf($msg, $_['owner_firstname'], $_['publiclink'], $_['filename']));
 					?>
 				</td>
@@ -69,7 +69,7 @@
 				<td width="20px">&nbsp;</td>
 				<td style="font-weight:normal; font-style:italic; font-size:0.8em; line-height:1.2em; font-family:verdana,'arial',sans;">
 					<?php 
-						$msg = 'Le partage termine le %s';
+						$msg = 'Le partagé termine le %s';
 						print_unescaped(sprintf($msg, $_['expiredate']));
 					?>
 				</td>
