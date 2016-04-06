@@ -91,7 +91,7 @@
 				<td style="font-weight:normal; font-size:0.8em; line-height:1.2em; font-family:verdana,'arial',sans;">
 					<?php 
 						$msg = 'Login comme <strong>%s</strong> dans <a href="%s" target="_blank" style="color: #58ACFA;">CERNBox</a>, sélectionnez l\'onglet <strong>Partagés avec vous</strong> pour le voir.';
-						print_unescaped(sprintf($msg, $_['target_sharee']));
+						print_unescaped(sprintf($msg, $_['target_sharee'], $_['link']));
 					?>
 				</td>
 			</tr>
