@@ -22,19 +22,26 @@
 	margin-right:2px;
 }
 
-.eospathView, .projectnameView {
+.eospathView, .projectnameView, .restorepathView {
 	border-style:groove;
 	border-width:2px;
 	margin-bottom:10px;
 }
 
-.eospathView p, .projectnameView p {
+.eospathView p, .projectnameView p, .restorepathView p {
  	margin: 0;
  	padding: 0;
  	font-family: 'Open Sans';
  	font-style: normal;
  	font-weight: 600;
  	src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(../fonts/OpenSans-Semibold.woff) format('woff');
+ }
+ 
+.eospathView textarea, .restorepathView textarea {
+ 	margin: 0;
+ 	width: 95%;
+ 	border:0;
+ 	resize:none;
  }
  
  .projectnameView ul {
