@@ -40,7 +40,6 @@
 .eospathView textarea, .restorepathView textarea {
  	margin: 0;
  	width: 95%;
- 	border:0;
  	resize:none;
  }
  
