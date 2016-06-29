@@ -22,13 +22,13 @@
 	margin-right:2px;
 }
 
-.eospathView, .projectnameView, .restorepathView {
+.eospathView, .xrootpathView, .projectnameView, .restorepathView {
 	border-style:groove;
 	border-width:2px;
 	margin-bottom:10px;
 }
 
-.eospathView p, .projectnameView p, .restorepathView p {
+.eospathView p, .xrootpathView p, .projectnameView p, .restorepathView p {
  	margin: 0;
  	padding: 0;
  	font-family: 'Open Sans';
@@ -37,7 +37,7 @@
  	src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(../fonts/OpenSans-Semibold.woff) format('woff');
  }
  
-.eospathView textarea, .restorepathView textarea {
+.eospathView textarea, .xrootpathView textarea, .restorepathView textarea {
  	margin: 0;
  	width: 95%;
  	resize:none;
