@@ -4,12 +4,6 @@
 			Only show upload button for public page
 		*/ ?>
 		<?php if(isset($_['dirToken'])):?>
-			<div id="upload" class="button upload"
-				 title="<?php isset($_['uploadMaxHumanFilesize']) ? p($l->t('Upload (max. %s)', array($_['uploadMaxHumanFilesize']))) : '' ?>">
-					<label for="file_upload_start" class="svg icon-upload">
-						<span class="hidden-visually"><?php p($l->t('Upload'))?></span>
-					</label>
-			</div>
 		<?php endif; ?>
 			<div id="uploadprogresswrapper">
 				<div id="uploadprogressbar"></div>
