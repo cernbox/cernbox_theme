@@ -9,7 +9,7 @@ script('core', [
 ?>
 
 <!--[if IE 8]><style>input[type="checkbox"]{padding:0;}</style><![endif]-->
-<form method="post" name="login" action="/index2.php">
+<form method="post" name="login" action="/index2.php?redirect_url=<?php p($_['redirect_url']) ?>">
 	<fieldset>
 	<div id="message" class="hidden">
 		<img class="float-spinner" alt=""
