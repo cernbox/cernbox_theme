@@ -19,7 +19,7 @@ script('core', [
 		<div style="clear: both;"></div>
 	</div>
 	<p class="grouptop">
-		<input type="submit" id="submit" title="<?php p($l->t('Proceed to CERNBox')); ?>" value="Proceed to CERNBox" disabled="disabled"/>
+		<input type="submit" id="submit" title="<?php p($l->t('Login to CERNBox')); ?>" value="Login to CERNBox" disabled="disabled"/>
 	</p>
 
 	<input type="hidden" name="timezone-offset" id="timezone-offset"/>
