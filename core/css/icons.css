@@ -1,0 +1,12 @@
+
+/* CERNBox additions */
+
+.icon-filetype-x-office-document {
+	background-image: url('../../../../core/img/filetypes/x-office-document.svg');
+}
+.icon-filetype-x-office-presentation{
+	background-image: url('../../../../core/img/filetypes/x-office-presentation.svg');
+}
+.icon-filetype-x-office-spreadsheet{
+	background-image: url('../../../../core/img/filetypes/x-office-spreadsheet.svg');
+}
