@@ -41,7 +41,7 @@ $thumbSize = 1024;
 <input type="hidden" name="filename" value="<?php p($_['filename']) ?>" id="filename">
 <input type="hidden" name="mimetype" value="<?php p($_['mimetype']) ?>" id="mimetype">
 <input type="hidden" name="previewSupported" value="<?php p($_['previewSupported'] ? 'true' : 'false'); ?>" id="previewSupported">
-<input type="hidden" name="mimetypeIcon" value="<?php p(OC_Helper::mimetypeIcon($_['mimetype'])); ?>" id="mimetypeIcon">
+<input type="hidden" name="mimetypeIcon" value="<?php p(\OC::$server->getMimeTypeDetector()->mimeTypeIcon($_['mimetype'])); ?>" id="mimetypeIcon">
 <input type="hidden" name="filesize" value="<?php p($_['nonHumanFileSize']); ?>" id="filesize">
 <input type="hidden" name="maxSizeAnimateGif" value="<?php p($_['maxSizeAnimateGif']); ?>" id="maxSizeAnimateGif">
 <input type="hidden" name="passwordProtected" value="<?php p($_['protected']); ?>" id="passwordProtected">
