@@ -3,21 +3,11 @@
 	background: white;
 }
 
-.nav-trashbin {
-	background-color: #F1BDBD;
-}
-
-
 #body-login p.info {
 	color: black;
 }
 #body-login p.info a{
 	color: black;
-}
-
-.nav-trashbin {
-	/* position: absolute !important; */
-	bottom: 0;
 }
 
 /* Dark subtle label text */

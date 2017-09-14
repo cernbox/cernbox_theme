@@ -59,10 +59,6 @@
 				<div class="icon-caret svg"></div>
 			</a>
 
-			<a target="_blank" href="https://cernbox.cern.ch/cernbox/doc" tabindex="2" style="display:inline-block; position:relative; margin-left: 13%; height: 27px; padding-top: 18px">
-				<h1 class="header-appname" style="color: #C6CAD0;"> Help & Download Clients </h1>
-			</a>
-
 			<div id="logo-claim" style="display:none;"><?php p($theme->getLogoClaim()); ?></div>
 			<div id="settings" class="svg">
 				<div id="expand" tabindex="6" role="link" class="menutoggle">
